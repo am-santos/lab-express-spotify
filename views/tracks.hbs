@@ -1,0 +1,14 @@
+<ul>
+  <li>
+  {{#each tracks}}
+    <figure>
+      <h5> <strong>{{track_number}}</strong> </h5>
+      <figcaption>{{name}}</figcaption>
+      <audio
+          controls
+          src="{{preview_url}}">
+      </audio>
+    </figure>
+  {{/each }}
+  </li>
+</ul>
